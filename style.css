@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=Nunito:ital,wght@0,600;0,1000;1,400&family=REM:wght@400;500&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,700&family=Varela&family=Varela+Round&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.863);
+}
+
+.pop{
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 50px 40px;
+    background: linear-gradient(to right, rgb(0, 255, 221) , rgb(32, 177, 153));
+    color: whitesmoke;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'REM', sans-serif;
+}
+
+.search button img{
+    width: 20px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    background-color:azure ;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+}
+
+
+.search input{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    height: 60px;
+    border-radius: 30px;
+    color: black;
+    font-size: 20px;
+    flex: 1;
+    margin-right: 20px;
+    font-family: 'REM', sans-serif;
+}
+
+/* weather part */
+.rain{
+    width: 180px; 
+    margin-top: 31px;
+}
+
+.tempareture{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.city{
+    font-size: 40px;
+    font-weight: 400;
+    font-family:'REM', sans-serif ;
+    
+}
+
+.details{
+    padding: 0 21px;
+    margin-top: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.humidity , .wind{
+    font-size: 20px;
+    font-family:'REM', sans-serif  ;
+}
+.texts{
+    font-family: 'REM', sans-serif ;
+}
+.weather{
+    display: none;
+}
+
+.columns{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+
+.columns img{
+    width: 40px;
+    margin-right: 13px;
+}
